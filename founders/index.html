@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<base href="/" id="site-base"/>
+<script>
+(function(){
+  var p = location.pathname.includes("/Syfernetics-Home/") ? "/Syfernetics-Home/" : "/";
+  document.getElementById("site-base").setAttribute("href", p);
+}());
+</script>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>test3</title>
+<!-- SEO Meta -->
+<meta content="Meet the Syfernetics founders: passion, experience, and vision in cybersecurity innovation." name="description"/>
+<link href="https://otiseduncan.github.io/Syfernetics-Home/founders/index.html" rel="canonical"/>
+<meta content="index,follow" name="robots"/>
+<!-- Open Graph -->
+<meta content="website" property="og:type"/>
+<meta content="https://otiseduncan.github.io/Syfernetics-Home/founders/index.html" property="og:url"/>
+<meta content="Founders | Syfernetics | Cybersecurity &amp; AI-Powered Network Solutions" property="og:title"/>
+<meta content="Meet the Syfernetics founders: passion, experience, and vision in cybersecurity innovation." property="og:description"/>
+<meta content="images/founderspage.jpg" property="og:image"/>
+<!-- Twitter -->
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="https://otiseduncan.github.io/Syfernetics-Home/founders/index.html" name="twitter:url"/>
+<meta content="Founders | Syfernetics | Cybersecurity &amp; AI-Powered Network Solutions" name="twitter:title"/>
+<meta content="Meet the Syfernetics founders: passion, experience, and vision in cybersecurity innovation." name="twitter:description"/>
+<meta content="images/founderspage.jpg" name="twitter:image"/>
+<!-- Favicon -->
+<link href="images/favicon.ico" rel="icon" type="image/x-icon"/>
+<style>
+:root{
+  --bg:#0b0f14; --fg:#e6f0ff; --muted:#9bb0c9;
+  --accent:#29d3a0; --accent-d:#1ea37d;
+  --panel:#101722; --border:#1b2432; --max:1200px;
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0; font-family:system-ui,-apple-system,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",Arial,sans-serif;
+  background:var(--bg); color:var(--fg); line-height:1.5;
+}
+a{color:inherit;text-decoration:none}
+.container{max-width:var(--max);margin:0 auto;padding:0 20px}
+
+/* Nav */
+header{position:sticky;top:0;z-index:100;background:rgba(11,15,20,.85);backdrop-filter:blur(6px);border-bottom:1px solid var(--border)}
+nav{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;padding:10px 0}
+.brand{font-weight:700;letter-spacing:.3px}
+.menu{display:flex;gap:18px;flex-wrap:wrap}
+.menu a{padding:8px 12px;border-radius:10px;color:var(--muted)}
+.menu a:hover{background:var(--panel);color:var(--fg)}
+.cta{background:var(--accent);color:#071217;padding:10px 14px;border-radius:12px;font-weight:600}
+.cta:hover{background:var(--accent-d)}
+
+/* Hero */
+.hero{position:relative;min-height:48vh;display:grid;place-items:center;text-align:center;overflow:hidden;border-bottom:1px solid var(--border)}
+.hero::before{
+  content:"";position:absolute;inset:0;
+  background:linear-gradient(180deg,rgba(7,12,18,.75),rgba(7,12,18,.85)),
+             url("images/founderspage.jpg") center/cover no-repeat;
+  filter:saturate(1.05) contrast(1.05);z-index:-1;
+}
+.hero h1{font-size:clamp(26px,4.5vw,46px);margin:0 0 10px 0}
+.hero p{color:var(--muted);max-width:900px;margin:0 auto;font-size:clamp(16px,2vw,20px)}
+
+/* Section */
+.section{padding:36px 0}
+.intro-card{max-width:900px;margin:0 auto;background:#0e1621;padding:24px;border-radius:16px;border:1px solid var(--border);color:var(--muted)}
+.intro-card h2{color:var(--accent);margin-top:0;margin-bottom:18px;font-size:2rem;font-weight:700;letter-spacing:.2px}
+.intro-card p{margin:8px 0;font-size:16px;line-height:1.6}
+
+/* Footer */
+footer{border-top:1px solid var(--border);color:var(--muted);padding:28px 0 48px}
+.footgrid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.footgrid a{color:var(--muted)}
+.footgrid a:hover{color:var(--fg)}
+
+/* Mobile */
+@media(max-width:680px){
+  .menu{width:100%;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+  .menu a{text-align:center;font-size:.95rem;padding:8px 10px}
+}
+@media(max-width:420px){
+  .menu{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+  .menu a{font-size:.9rem;padding:8px}
+}
+</style>
+</head>
+<body>
+<header>
+<div class="container">
+<nav aria-label="Primary">
+<div class="brand">Demo Placeholder</div>
+<div class="menu">
+<a href="index.html">Demo Placeholder</a>
+<a href="about/">Demo Placeholder</a>
+<a href="solutions/">Demo Placeholder</a>
+<a href="projects/">Demo Placeholder</a>
+<a class="cta" href="founders/">Demo Placeholder</a>
+<a href="contact/">Demo Placeholder</a>
+</div>
+</nav>
+</div>
+</header>
+<section class="hero">
+<div class="container">
+<h1>Demo Placeholder</h1>
+<p>Demo Placeholder</p>
+</div>
+</section>
+<section class="section">
+<div class="container">
+<div class="intro-card">
+<h2>Demo Placeholder</h2>
+<p>Demo Placeholder</p>
+<p>Demo Placeholder</p>
+<p>Demo Placeholder</p>
+<p>Demo Placeholder</p>
+</div>
+</div>
+</section>
+<footer>
+<div class="container footgrid">
+<div>
+<strong>Syfernetics</strong><br/>
+      Macon, Georgia<br/>
+<a href="mailto:contact@syfernetics.com">Demo Placeholder</a>
+</div>
+<div>
+<strong>Links</strong><br/>
+<a href="about/">Demo Placeholder</a><br/>
+<a href="solutions/">Demo Placeholder</a><br/>
+<a href="projects/">Demo Placeholder</a>
+</div>
+<div>
+<strong>Legal</strong><br/>
+<a href="privacy.html">Demo Placeholder</a> (optional)<br/>
+<a href="terms.html">Demo Placeholder</a> (optional)
+    </div>
+</div>
+</footer>
+</body>
+</html>
